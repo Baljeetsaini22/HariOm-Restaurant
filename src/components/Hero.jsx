@@ -9,7 +9,7 @@ function Hero() {
             <a className="cursor-pointer w-30 py-2 rounded-2xl bg-gradient-to-r from-yellow-400 to-white text-black">
               See Menu
             </a>
-            <a className="cursor-pointer w-30 py-2 rounded-2xl bg-gradient-to-r from-white to-yellow-400 text-black">
+            <a className="cursor-pointer w-30 py-2 rounded-2xl bg-gradient-to-l from-yellow-400 to-white text-black">
               Order Now
             </a>
           </div>
