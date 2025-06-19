@@ -1,6 +1,6 @@
 function About() {
   return (
-    <section id="about" className="bg-white text-black py-20 px-4">
+    <section id="about" className="bg-white text-black py-20 px-[7.5%]">
       <div className="max-w-3xl mx-auto text-center">
         <h2 className="text-4xl font-bold text-yellow-400 mb-6">
           About Hariom Restaurant
