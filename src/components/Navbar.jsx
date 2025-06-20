@@ -9,8 +9,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full bg-yellow-400">
-      <nav className="w-[85%] mx-auto flex justify-between items-center h-[4rem] relative ">
+    <div className="fixed left-0 top-0 z-50 w-full bg-yellow-400">
+      <nav className="w-[85%] mx-auto flex justify-between items-center h-[4rem]">
         <div>
           <h2>HOB</h2>
         </div>
@@ -60,5 +60,5 @@ const Navbar = () => {
       </nav>
     </div>
   );
-}
+};
 export default Navbar;

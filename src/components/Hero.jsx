@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="hero-section w-full text-white bg-[url('/banner/banner.jpg')] bg-cover">
+    <section className="hero-section w-full text-white bg-[url('/banner/banner.jpg')] bg-cover ">
       <div className="bg-[#00000080] h-[50vh] md:h-[100vh] flex items-center justify-center">
         <div className=" flex flex-col items-center">
           <h1 className="text-center text-3xl md:text-5xl">Welcome To HariOm भोजनालय</h1>
