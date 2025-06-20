@@ -3,32 +3,32 @@ const Menu = () => {
     {
       name: "Paneer Butter Masala",
       price: "₹220",
-      image: "/images/paneer.jpg",
+      image: "/public/foodImg/paneer.jpg",
     },
     {
       name: "Masala Dosa",
       price: "₹130",
-      image: "/images/dosa.jpg",
+      image: "/public/foodImg/dossa.jpg",
     },
     {
       name: "Veg Biryani",
       price: "₹180",
-      image: "/images/biryani.jpg",
+      image: "/public/foodImg/biryani.jpg",
     },
     {
       name: "Chole Bhature",
       price: "₹150",
-      image: "/images/chole.jpg",
+      image: "/public/foodImg/bature.jpg",
     },
     {
       name: "Tandoori Roti",
       price: "₹20",
-      image: "/images/roti.jpg",
+      image: "/public/foodImg/tanduriRoti.jpg",
     },
     {
       name: "Lassi (Sweet/Salty)",
       price: "₹50",
-      image: "/images/lassi.jpg",
+      image: "/public/foodImg/lassi.jpg",
     },
   ];
 
@@ -37,15 +37,16 @@ const Menu = () => {
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-4xl font-bold text-yellow-400 mb-10">Our Menu</h2>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {menuItems.map((item, index) => (
+          { menuItems.map((item, index) => (
             <div
               key={index}
-              className="bg-white text-black rounded-xl shadow-lg overflow-hidden"
+              className=" bg-white text-black rounded-xl shadow-lg overflow-hidden"
             >
               <img
                 src={item.image}
                 alt={item.name}
                 className="w-full h-56 object-cover"
+                
               />
               <div className="p-5">
                 <h3 className="text-xl font-semibold mb-2">{item.name}</h3>
