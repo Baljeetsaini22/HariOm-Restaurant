@@ -1,4 +1,4 @@
-function About() {
+const About = () => {
   return (
     <section id="about" className="bg-white text-black py-20 px-[7.5%]">
       <div className="max-w-3xl mx-auto text-center">

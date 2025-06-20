@@ -1,4 +1,4 @@
-function Hero() {
+const Hero = () => {
   return (
     <section className="hero-section w-full text-white bg-[url(./assets/images/hero-banner.png)] bg-cover">
       <div className="bg-[#00000080] h-[60vh] flex items-center justify-center">

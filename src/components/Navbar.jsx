@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "../style/Toggle.css";
 
-function Navbar() {
+const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   const toggleMenu = () => {
