@@ -36,7 +36,7 @@ const Menu = () => {
     <section id="menu" className="bg-black text-white py-20 px-[7.5%]">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-4xl font-bold text-[#eeb753]">Our Menu</h2>
-        <p className="text-white mx-5">
+        <p className="text-white my-5">
           Delicious & Affordable Vegetarian Dishes
         </p>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
