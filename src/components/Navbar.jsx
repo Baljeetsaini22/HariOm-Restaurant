@@ -1,13 +1,17 @@
 import { useState } from "react";
 import "../style/Toggle.css";
+import Profile from "./Userprofile";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const [logged , setLogged] = useState(false)
 
   const toggleMenu = () => {
     setOpen(!open);
   };
-
+function setuser(){
+  setLogged(true)
+}
   return (
     <div className="fixed left-0 top-0 z-50 w-full bg-yellow-400">
       <nav className="w-[85%] mx-auto flex justify-between items-center h-[4rem]">
@@ -31,7 +35,11 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="flex items-center gap-3">
-          <a href="00">Sign in</a>
+          {
+          <div onClick={setuser}>
+
+         { !logged ? <span>Sign up</span> : <Profile/>}
+          </div>}
           <div
             className={`hamburger ${open ? "open" : ""}`}
             onClick={toggleMenu}
