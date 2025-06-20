@@ -35,7 +35,7 @@ const Menu = () => {
   return (
     <section id="menu" className="bg-black text-white py-20 px-[7.5%]">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-4xl font-bold text-yellow-400 mb-10">Our Menu</h2>
+        <h2 className="text-4xl font-bold text-[#eeb753] mb-10">Our Menu</h2>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {menuItems.map((item, index) => (
             <div
@@ -49,7 +49,7 @@ const Menu = () => {
               />
               <div className="p-5">
                 <h3 className="text-xl font-semibold mb-2">{item.name}</h3>
-                <p className="text-yellow-600 font-bold">{item.price}</p>
+                <p className="text-[#eeb753] font-bold">{item.price}</p>
               </div>
             </div>
           ))}

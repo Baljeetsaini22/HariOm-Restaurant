@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "../style/Toggle.css";
 import Profile from "./Userprofile";
+import logo from '/logo/logo.png'
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -13,10 +14,10 @@ function setuser(){
   setLogged(true)
 }
   return (
-    <div className="fixed left-0 top-0 z-50 w-full bg-yellow-400">
+    <div className="fixed left-0 top-0 z-50 w-full bg-[#eeb753]">
       <nav className="w-[85%] mx-auto flex justify-between items-center h-[4rem]">
-        <div>
-          <h2>HOB</h2>
+        <div className="overflow-hidden">
+          <img src={logo} alt="logo" className="w-16"/>
         </div>
         <div className="nav-menu max-sm:hidden">
           <ul className="flex gap-5">

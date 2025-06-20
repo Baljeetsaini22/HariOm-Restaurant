@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 text-center md:text-left">
         {/* Branding */}
         <div>
-          <h2 className="text-2xl font-bold text-yellow-400 mb-3">
+          <h2 className="text-2xl font-bold text-[#eeb753] mb-3">
             Hariom Restaurant
           </h2>
           <p>
@@ -18,17 +18,17 @@ const Footer = () => {
           <h3 className="text-xl font-semibold mb-3">Quick Links</h3>
           <ul className="space-y-2">
             <li>
-              <a href="#about" className="hover:text-yellow-400">
+              <a href="#about" className="hover:text-[#eeb753]">
                 About
               </a>
             </li>
             <li>
-              <a href="#menu" className="hover:text-yellow-400">
+              <a href="#menu" className="hover:text-[#eeb753]">
                 Menu
               </a>
             </li>
             <li>
-              <a href="#contact" className="hover:text-yellow-400">
+              <a href="#contact" className="hover:text-[#eeb753]">
                 Contact
               </a>
             </li>
