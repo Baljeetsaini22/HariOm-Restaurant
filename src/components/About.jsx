@@ -5,6 +5,11 @@ const About = () => {
         <h2 className="text-4xl font-bold text-[#eeb753] mb-6">
           About Hariom Restaurant
         </h2>
+        <p className="text-white text-lg max-w-xl">
+          Hariom Restaurant has been serving delicious vegetarian meals since
+          1995. Our recipes are rooted in tradition, with a modern twist. Join
+          us for a taste of home.
+        </p>
         <p className="mb-4 text-lg">
           Welcome to <span className="font-semibold">Hariom Restaurant</span>,
           where flavor meets tradition! Located in the heart of the city, we
@@ -29,5 +34,5 @@ const About = () => {
       </div>
     </section>
   );
-}
+};
 export default About;
